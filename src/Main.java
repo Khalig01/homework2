@@ -45,6 +45,36 @@ public class Main
     System.out.println(weightBoxer2);
     var totallyWeightBoxer= weightBoxer1 + weightBoxer2;
     System.out.println(totallyWeightBoxer);
+    System.out.println("Задача7");
+    var remainderWeightBoxers= weightBoxer1 -weightBoxer2;
+    System.out.println(remainderWeightBoxers);
+    var divisionBoxers = (weightBoxer2 % weightBoxer1);
+    System.out.println(divisionBoxers);
+    System.out.println("Задача8");
+    var allHours= 640;
+    System.out.println(allHours);
+    var workers= allHours / 8;
+    System.out.println(workers);
+    System.out.println("Всего работников в компании"+ workers + "человек");
+    var extraWorkers= workers + 94;
+    System.out.println(extraWorkers);
+    var newTimeTable= allHours / extraWorkers;
+    System.out.println(newTimeTable);
+    System.out.println("Если в компании работает"+ extraWorkers + "человек,то всего"+ newTimeTable +"часов работы может быть поделено между сотрудниками");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
